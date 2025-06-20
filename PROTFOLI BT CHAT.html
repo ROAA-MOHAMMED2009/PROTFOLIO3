@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio / Roaa Mohammed</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      body {
+        background-color: #f5f7fa;
+        color: #333;
+        padding: 40px;
+        line-height: 1.6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        animation: fadeInBody 1s ease-in;
+      }
+
+      img {
+        max-width: 200px;
+        border-radius: 50%;
+        margin: 20px 0;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        animation: fadeIn 1s ease-in-out;
+      }
+
+      .project-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+      }
+
+      .project-gallery img {
+        max-width: 300px;
+        border-radius: 12px;
+        transition: transform 0.3s;
+      }
+
+      .project-gallery img:hover {
+        transform: scale(1.05);
+      }
+
+      h1, h2, h3 {
+        color: #2c3e50;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        transition: color 0.3s ease, transform 0.3s ease;
+      }
+
+      h1:hover, h2:hover, h3:hover {
+        color: #1a73e8;
+        transform: scale(1.05);
+      }
+
+      h1 {
+        font-size: 36px;
+        text-align: center;
+        color: #1a73e8;
+        animation: fadeInUp 1s ease-in-out;
+      }
+
+      h2 {
+        font-size: 28px;
+        border-left: 5px solid #1a73e8;
+        padding-left: 10px;
+        animation: fadeInUp 1s ease-in-out;
+      }
+
+      h3 {
+        font-size: 22px;
+        color: #444;
+        animation: fadeInUp 1s ease-in-out;
+      }
+
+      p {
+        font-size: 18px;
+        margin-bottom: 20px;
+        max-width: 800px;
+        animation: fadeIn 1.2s ease-in-out;
+        transition: transform 0.3s ease;
+      }
+
+      p:hover {
+        transform: scale(1.01);
+      }
+
+      hr {
+        margin: 20px 0;
+        border: none;
+        border-top: 2px dashed #ccc;
+        width: 300px;
+      }
+
+      ins {
+        text-decoration: none;
+        background: linear-gradient(to right, #1a73e8, #67c2ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+      }
+
+      /* Animation Keyframes */
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes fadeInBody {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Profile Picture -->
+    <img src="https://via.placeholder.com/200" alt="Roaa Mohammed Profile Picture" />
+
+    <h1><ins>Roaa Mohammed</ins></h1>
+    <p>
+      I’m a creative and motivated learner exploring the world of design and web
+      development, aiming to grow every day.
+    </p>
+    <hr />
+
+    <h2><ins>About</ins></h2>
+    <p>
+      I’m passionate about transforming ideas into visuals. I enjoy design,
+      coding, and sharing what I create with others.
+    </p>
+    <hr />
+
+    <h2><ins>Education</ins></h2>
+    <p>
+      Currently in preparatory school, I enhance my education through online
+      courses in design and programming.
+    </p>
+    <hr />
+
+    <h2><ins>Skills</ins></h2>
+    <p>
+      I have a balanced mix of soft and technical skills that help me tackle
+      creative and coding projects with confidence.
+    </p>
+    <hr />
+
+    <h3><ins>Non-Technical Skills</ins></h3>
+    <p>
+      My non-technical strengths include creativity, communication, and time
+      management which support my work process.
+    </p>
+    <hr />
+
+    <h3><ins>Technical Skills</ins></h3>
+    <p>
+      I’m gaining hands-on experience in HTML, CSS, graphic tools, and visual
+      programming platforms like Scratch.
+    </p>
+    <hr />
+
+    <h2><ins>Experience</ins></h2>
+    <p>
+      Through personal projects like poster design and simple games, I’ve
+      practiced real-world skills and improved my workflow.
+    </p>
+    <hr />
+
+    <h2><ins>Certifications or Courses</ins></h2>
+    <p>
+      I’ve taken several online courses to build my knowledge in graphic design,
+      development basics, and digital creativity.
+    </p>
+    <hr />
+
+    <h2><ins>Project</ins></h2>
+    <p>
+      Each project I’ve done—from <big>welco</big> <small>welcome</small> posters
+      to web mockups—was a chance to apply and grow my design and coding skills.
+    </p>
+
+    <!-- Image Gallery for Projects -->
+    <div class="project-gallery">
+      <img src="https://via.placeholder.com/300x200?text=Poster+Design" alt="Poster Project" />
+      <img src="https://via.placeholder.com/300x200?text=Web+Mockup" alt="Web Mockup Project" />
+      <img src="https://via.placeholder.com/300x200?text=Game+Design" alt="Game Design Project" />
+    </div>
+    <hr />
+
+    <h2><ins>Services</ins></h2>
+    <p>
+      I offer beginner-level design services like logo creation, YouTube
+      thumbnails, and basic web page layouts.
+    </p>
+    <hr />
+
+    <h2><ins>Technologies</ins></h2>
+    <p>
+      I work with Canva, Figma, HTML, CSS, and other beginner-friendly tools to
+      bring ideas to life.
+    </p>
+    <hr />
+
+    <h2><ins>Contact Me</ins></h2>
+    <p>
+      You can reach me for collaborations or creative projects via email,
+      Instagram, or WhatsApp.
+    </p>
+    <hr />
+  </body>
+</html>
